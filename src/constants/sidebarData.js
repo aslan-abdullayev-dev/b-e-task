@@ -76,7 +76,7 @@ export const sidebarData = [
     name: "Televizorlar, audio-video",
     icon: monitor,
     children: [],
-    path: "televozizorlar-audio-video",
+    path: "televizorlar-audio-video",
   },
   {
     name: "Noutbuklar və kompüterlər",
