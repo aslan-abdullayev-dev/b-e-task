@@ -28,14 +28,15 @@ function Navbar() {
         <div className="buttons">
           <LangSelect />
           <NavbarNotificationButton icon={<ScalesIcon />} />
-          <NavbarNotificationButton icon={<BasketIcon />} />
+          <NavbarNotificationButton
+            icon={<BasketIcon />}
+            notificationCount={11}
+          />
           <NavbarNotificationButton
             icon={<HeartIcon />}
             notificationCount={5}
           />
-          <NavbarNotificationButton
-            icon={<LoginIcon />}
-            notificationCount={11}
+          <NavbarNotificationButton icon={<LoginIcon />}
           />
         </div>
       </div>
